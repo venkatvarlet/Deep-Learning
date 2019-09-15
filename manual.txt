@@ -1,0 +1,7 @@
+media/rahul/01D4A5DFB1132920/Projects/Ubuntu/tensorflow-for-poets-2
+
+source activate tf
+
+python -m scripts.label_image --graph=tf_files/retrained_graph.pb --image=test20.jpg
+
+
